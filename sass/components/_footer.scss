@@ -1,0 +1,170 @@
+.footer {
+    background-color: $secondary-dark-color;
+    padding: 60px 0;
+}
+
+.footer__wrapper {
+    display: flex;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.logo__studio--light {
+    color: $primary-white-color;
+}
+
+.footer-contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-contacts__location {
+    color: $primary-white-color;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+    color: $accent-color;
+    }
+}
+
+.footer-contacts__link {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+    color: $accent-color;
+    }
+}
+
+.footer-socials {
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
+.footer-socials__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-white-color;
+
+    margin-bottom: 20px;
+}
+
+.footer-socials__list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-socials__item {
+    width: 44px;
+    height: 44px;
+
+    &:not(:first-child) {
+    margin-left: 10px;
+    }
+}
+
+.footer-socials__link {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: $primary-white-color;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+    }
+
+}
+
+.footer-socials__icon {
+    fill: currentColor;
+}
+
+.footer-subscribe {
+    margin-left: auto;
+    margin-top: 12px;
+}
+
+.footer-subscribe__title {
+    display: block;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-white-color;
+}
+
+.footer-subscribe__form {
+    display: flex;
+}
+
+.footer-subscribe__input {
+    width: 358px;
+    height: 50px;
+
+    padding: 15px 16px;
+
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    outline: none;
+
+    color: $primary-white-color;
+}
+
+.footer-subscribe__button {
+    margin-left: 12px;
+
+    min-width: 200px;
+    height: 50px;
+
+    background-color: $accent-color;
+    color: $primary-white-color;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+
+    transition: background-color 250ms $cubic-bez-index;
+
+    &:hover,
+    &:focus {
+    background-color: #188CE8;
+    }
+}
+
+.footer-subscribe__icon {
+    margin-left: 10px;
+    fill: $primary-white-color;
+}

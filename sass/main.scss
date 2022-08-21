@@ -1,0 +1,27 @@
+/* ----------------ROOT---------------- */
+@import "./utils/variables";
+/* ----------------UTILITIES---------------- */
+@import "./utils/utilities";
+/* ----------------SITE HEADER---------------- */
+@import "./components/header";
+/* ----------------"Студiя" page---------------- */
+/* ----------------HERO SECTION---------------- */
+@import "./components/hero";
+/* ----------------ADVANTAGES---------------- */
+@import "./components/advantages";
+/* ----------------WHAT CAN WE MAKE---------------- */
+@import "./components/we-make";
+/* ----------------TEAM---------------- */
+@import "./components/team";
+/* ----------------CLIENTS---------------- */
+@import "./components/clients";
+/* ----------------BACKDROP---------------- */
+@import "./components/backdrop";
+/* ----------------FOOTER---------------- */
+@import "./components/footer";
+/* ----------------"Портфолiо" page---------------- */
+
+/* ----------------PROJECT FILTER---------------- */
+@import "./components/filter.scss";
+/* ----------------PROJECT LIST---------------- */
+@import "./components/project";
