@@ -286,7 +286,6 @@ body {
   position: relative;
   display: flex;
   margin-right: 30px;
-  width: calc(33.3333333333% - 60px);
 }
 .making__item:last-child {
   margin-right: 0;
@@ -774,6 +773,8 @@ body {
 .footer-subscribe__icon {
   margin-left: 10px;
   fill: #FFFFFF;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* ----------------"Портфолiо" page---------------- */
@@ -813,7 +814,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -30px;
 }
 
 .project__item {
